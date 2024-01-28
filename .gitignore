@@ -5,3 +5,7 @@ yolo_data_file
 *.html
 .DS_Store
 .ipynb_checkpoints/
+*.pickle
+*.h5
+*.csv
+*.pdf
