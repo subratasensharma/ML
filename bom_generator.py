@@ -44,7 +44,7 @@ def extract_bom_jpg(drg_folder):
 
     # Load the trained YOLOv8 model
     #model = YOLO("runs/detect/train9/weights/best.pt")
-    model = YOLO("/Users/subrata/workstation/jupyterFiles/yolo_data_file/yolov8_dir/my_yolo_model_1.pt")
+    model = YOLO("/Users/subrata/Desktop/my_bom_extractor/my_yolo_model_1.pt")
 
     # Input Path to drawing folder (containing drawing images in .jpg)
     drawing_folder = drg_folder + '/'
@@ -135,7 +135,7 @@ def extract_bom_pdf(drg_folder):
                 sys.stderr = old_stderr
 
     ## Load the trained YOLOv8 model
-    model = YOLO("/Users/subrata/workstation/jupyterFiles/yolo_data_file/yolov8_dir/my_yolo_model_1.pt")
+    model = YOLO("/Users/subrata/Desktop/my_bom_extractor/my_yolo_model_1.pt")
 
     # Input Path to drawing folder (containing drawing images in .pdf)
     drawing_folder = drg_folder + '/'
